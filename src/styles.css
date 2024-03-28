@@ -1,9 +1,56 @@
-.logol{
-    max-width: 350px;
+.logol {
+  max-width: 350px;
 }
-.logos{
-    max-width: 100px;
+.logos {
+  max-width: 100px;
 }
-.container{
-    margin-top: 200px;
+.header {
+  margin-top: 200px;
+  margin-bottom: 70px;
 }
+
+.custom-bg {
+  background-color: #ecc77c;
+}
+.dropdown-item:hover {
+  background-color: #ecc77c;
+}
+
+.site-photos {
+  max-height: 1130px;
+}
+
+.box {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.atelier {
+  height: 730px;
+  width: 950px;
+}
+
+    .flash {
+      background-color: #ecc77c;
+      animation: flashEffect 3s linear infinite;
+    }
+
+    @keyframes flashEffect {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .fireworks {
+      background-image: url('fireworks.gif');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
