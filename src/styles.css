@@ -19,6 +19,33 @@
 .site-photos {
   max-height: 1130px;
 }
+      .photo-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      .photo-grid .photo-container {
+        flex: 0 1 300px;
+        max-width: 300px;
+        padding: 10px;
+        border: 1px solid #0900ca;
+        margin: 10px;
+        text-align: center;
+        
+      }
+
+      .photo-grid img {
+        width: 100%;
+        height: auto;
+     
+      }
+
+      .gallery {
+        margin-top: 200px;
+      }
 
 .box {
   border-radius: 10px;
