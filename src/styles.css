@@ -18,6 +18,15 @@
   background-color: #ecc77c;
 }
 
+
+.karting {
+  transition: transform 0.3s;
+}
+
+.karting:hover {
+  transform: scale(1.7);
+}
+
 .site-photos {
   max-height: 1130px;
 }
